@@ -98,7 +98,9 @@ def callback_query(call):
         botPredskazatel.send_message(call.message.chat.id, description)
     if call.data == "artist":
         artist_mess = f"Создатель дизайна карт - художница Матильда\n" \
-                      f"https://matilllda.ru/"
+                      f"https://matilllda.ru/\n"
+                      f"Заходи, пообщаемся:\n"
+                      f"https://t.me/sozdamvetochky\n"
         botPredskazatel.send_message(call.message.chat.id, artist_mess)
 
 
